@@ -6,7 +6,7 @@
 <ul>
 
   {{#each @model.services as |service|}}
-    <li class="list-group-item" {{ action "toggleActive" service}}> {{service.name}} {{service.price}}</li>
+    <li class="list-group-item {{if service.active 'active' ''}}" {{ action "toggleActive" service}}> {{service.name}} {{service.price}}</li>
   {{/each}}
 </ul>
 {{ plural @model.countActive 'Aucun service sélectionné'
