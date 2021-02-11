@@ -17,13 +17,9 @@ export default class MultiSelectComponent extends Component {
   @action
   change(event) {
     let select = event.target;
-    var selectedIds = [...select.selectedOptions].map((option) => option.value);
+    var selectedIds = [...select.selectedOptions].map(option => option.value);
     if (this.args.onChange) {
-      this.args.onChange(
-        this.elements.filter(
-          (elm) => selectedIds.filter((e) => e == elm[this.id]).length > 0
-        )
-      );
+      this.args.onChange(this.elements.filter(elm => selectedIds.filter(e => e == elm[this.id]).length > 0));
     }
   }
 }

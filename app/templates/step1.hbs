@@ -3,6 +3,10 @@
              @selected={{this.dispoItems_}}
              @onChange={{this.changeDispo}}
 />
-
-<!------Pour tests uniquement----->
+<button {{action "add" this.dispoItems this.includedItems this.dispoItems_ }}>Ajouter sélection</button>
+<button {{action "add" this.includedItems this.dispoItems this.includedItems_ }}>Retirer sélection</button>
+<MultiSelect @elements={{this.includedItems}}
+             @selected={{this.includedItems_}}
+             @onChange={{this.changeIncluded}}
+/>
 {{outlet}}
