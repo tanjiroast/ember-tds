@@ -3,9 +3,11 @@ export default class Services {
   services = [];
   test=0;
 
-  constructor(data) {
-    this.services = data;
+  constructor(services, promo) {
+    this.services = services;
+    this.promos = promo;
   }
+
   @computed('services.@each.active')
 
   get countActive(){
@@ -21,4 +23,23 @@ export default class Services {
     });
     return total;
   }
+
+    get coefPromo(){
+      for (const [key, value] of Object.entries(this.promos)) {
+        //console.log(`${key}: ${value}`);
+        console.log(key);
+        if (key == this.enterValue){
+          return value;
+        }
+      }
+      return 0;
+    }
+
+    get remise(){
+      return this.sumActive * this.coefPromo;
+    }
+
+    get totalAvecRemise(){
+      return this.sumActive - this.remise;
+    }
 }

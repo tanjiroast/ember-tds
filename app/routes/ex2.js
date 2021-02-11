@@ -13,7 +13,7 @@ export default class Ex2Route extends Route {
   }
 
   @action
-  toggleActive(service){
+  toggleActive(service) {
     if (service.active) {
       service.active = false
     } else {
@@ -21,6 +21,9 @@ export default class Ex2Route extends Route {
     }
     console.log(service);
     this.nbrActive = this.model.countActive;
-
+  }
+  @action
+  valider(){
+    this.transitionTo('/ex2/promo');
   }
 }

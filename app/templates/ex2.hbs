@@ -1,14 +1,12 @@
 {{page-title "Ex2"}}
-<h1>Services</h1>
-<div class="alert alert-info">
-  <span>Choisissez les éléments à inclure</span>
-</div>
-<ul>
-
+<ul class="list-group">
   {{#each @model.services as |service|}}
-    <li class="list-group-item {{if service.active 'active' ''}}" {{ action "toggleActive" service}}> {{service.name}} {{service.price}}</li>
+    <li class="list-group-item {{if service.active 'active' ''}}" {{action "toggleActive" service}}>
+      {{service.name}} {{service.price}}
+    </li>
   {{/each}}
 </ul>
-{{ plural @model.countActive 'Aucun service sélectionné'
-          'service sélectionné' 'services sélectionnés'}}
+{{plural @model.countActive 'Aucun Service selectionné' 'Service sélectionné' 'Services sélectionnés'  }}
+<p>{{@model.sumActive}} : Somme</p>
+<button {{action "valider" }}>Valider</button>
 {{outlet}}
