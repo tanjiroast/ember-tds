@@ -5,13 +5,12 @@ export default class Step1Controller extends Controller {
   dispoItems = [];
   includedItems = [];
   @tracked dispoItems = [];
-  @tracked includedItems = [];
+  @tracked includedItems_ = [];
 
   changeDispo(elements) {
     this.dispoItems = elements;
   }
-
   changeIncluded(elements) {
-    this.includedItems = elements;
+    this.includedItems_ = elements;
   }
 }
