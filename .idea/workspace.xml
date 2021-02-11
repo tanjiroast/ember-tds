@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6db7816-b4b9-4f5f-b738-2bc991150e03" name="Default Changelist" comment="TRACKED+AFFICHE PROMO" />
+    <list default="true" id="b6db7816-b4b9-4f5f-b738-2bc991150e03" name="Default Changelist" comment="TRACKED+AFFICHE PROMO">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,8 @@
       <workItem from="1611574998996" duration="709000" />
       <workItem from="1612430701869" duration="388000" />
       <workItem from="1612431369424" duration="5131000" />
-      <workItem from="1613028266007" duration="1346000" />
+      <workItem from="1613028266007" duration="1755000" />
+      <workItem from="1613030078723" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="TRACKED+AFFICHE PROMO">
       <created>1613029589160</created>
