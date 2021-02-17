@@ -9,5 +9,9 @@
   <div class="col">
     <Input @value={{@model.email}} placeholder="Entrez votre email"/>
   </div>
+  <div class="col">
+    <button {{action "save" @model}} class="btn btn-primary">Enregistrer </button>
+    <LinkTo @route="contacts" class="btn">Annuler</LinkTo>
+  </div>
 </div>
 {{outlet}}

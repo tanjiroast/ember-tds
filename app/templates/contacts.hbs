@@ -3,18 +3,27 @@
   <thead>
   <tr>
     <td>Nom</td>
+    <td>Prenom</td>
+    <td>Email</td>
   </tr>
   </thead>
   <tbody>
   {{#each @model.contacts as  | contact|}}
     <tr>
       <td>{{contact.nom}}</td>
+      <td>{{contact.prenom}}</td>
+      <td>{{contact.email}}</td>
     </tr>
   {{/each}}
   </tbody>
   <tfoot>
   <tr>
-    <td><LinkTo @route="contacts.add">Ajouter</LinkTo></td>
+    <td>
+      <LinkTo @route="contacts.add">Ajouter</LinkTo>
+      {{#if @model.deletedsCount}}
+        <button class="btn btn-danger">Annuler la suppression ({{@model.deletedsCount}})</button>
+      {{/if}}
+    </td>
   </tr>
   </tfoot>
 </table>

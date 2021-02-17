@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="882ca47e-da67-4abb-a2df-9c67bf3b2711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/contacts/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/contacts/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/contacts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contacts.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/contacts/add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/contacts/add.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oKQDuw20yEPLDJzxil74vsDYQ4" />
   <component name="ProjectViewState">
@@ -57,7 +71,7 @@
       <workItem from="1613329061120" duration="64000" />
       <workItem from="1613566928198" duration="1350000" />
       <workItem from="1613569513696" duration="823000" />
-      <workItem from="1613570398603" duration="4130000" />
+      <workItem from="1613570398603" duration="6783000" />
     </task>
     <servers />
   </component>
