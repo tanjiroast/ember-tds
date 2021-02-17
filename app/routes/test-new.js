@@ -8,6 +8,6 @@ export default class TestNewRoute extends Route {
 
   @action save(data) {
     let contact = this.store.createRecord('contact', data);
-    contact.save();
+    contact.save().then(() => this.transitionTo('testlist'));
   }
 }
