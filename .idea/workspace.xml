@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="882ca47e-da67-4abb-a2df-9c67bf3b2711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -58,7 +59,7 @@
       <workItem from="1613329061120" duration="64000" />
       <workItem from="1613566928198" duration="1350000" />
       <workItem from="1613569513696" duration="823000" />
-      <workItem from="1613570398603" duration="604000" />
+      <workItem from="1613570398603" duration="955000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ export default class TestNewRoute extends Route {
   }
 
   @action save(data) {
-    let contact = this.store.createObject('contact', data);
+    let contact = this.store.createRecord('contact', data);
     contact.save();
   }
 }
