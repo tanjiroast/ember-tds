@@ -1,18 +1,23 @@
-{{page-title "Contact"}}
+{{page-title "Contacts"}}
 <table class="table table-striped">
   <thead>
   <tr>
     <td>Nom</td>
-    <td>Prenom</td>
+    <td>Prénom</td>
     <td>Email</td>
   </tr>
   </thead>
   <tbody>
-  {{#each @model.contacts as  | contact|}}
+  {{#each @model.contacts as |contact|}}
     <tr>
       <td>{{contact.nom}}</td>
       <td>{{contact.prenom}}</td>
       <td>{{contact.email}}</td>
+      <td>
+        <button {{action "delete" contact}}class="btn btn-danger btn-sm">
+          <i class="far fa-trash-alt"></i>
+        </button>
+      </td>
     </tr>
   {{/each}}
   </tbody>
@@ -20,8 +25,8 @@
   <tr>
     <td>
       <LinkTo @route="contacts.add">Ajouter</LinkTo>
-      {{#if @model.deletedsCount}}
-        <button class="btn btn-danger">Annuler la suppression ({{@model.deletedsCount}})</button>
+      {{#if @model.deletedCount}}
+        <button class="btn btn-danger" {{action "cancelDeletion" @model.deleteds}}>Annuler la suppression ( {{@model.deletedCount}} )</button>
       {{/if}}
     </td>
   </tr>
