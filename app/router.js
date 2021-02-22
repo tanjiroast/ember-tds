@@ -16,7 +16,7 @@ Router.map(function () {
   this.route('categories', function() {
     this.route('add');
     this.route('update', {path:'update/:contact_id'});
-    this.route('contacts', function() {
+    this.route('contacts',{path:'update/:category_id'}, function() {
       this.route('add');
       this.route('update', {path:'update/:contact_id'});
     });
