@@ -13,4 +13,9 @@ Router.map(function () {
     this.route('add');
     this.route('update');
   });
+  this.route('categories', function() {
+    this.route('add');
+    this.route('contacts');
+    this.route('update');
+  });
 });
