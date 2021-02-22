@@ -15,7 +15,10 @@ Router.map(function () {
   });
   this.route('categories', function() {
     this.route('add');
-    this.route('contacts');
+    this.route('contacts', function() {
+      this.route('add');
+      this.route('update');
+    });
     this.route('update');
   });
 });
