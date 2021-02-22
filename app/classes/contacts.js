@@ -4,6 +4,7 @@ export default class contacts {
   constructor(datas) {
     this.datas = datas;
   }
+
   get contacts() {
     return this.datas.filterBy('isDeleted', false);
   }
