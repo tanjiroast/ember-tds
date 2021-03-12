@@ -23,4 +23,5 @@ Router.map(function () {
       this.route('update', { path: 'update/:contact_id' });
     });
   });
+  this.route('abstractroute');
 });
