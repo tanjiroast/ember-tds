@@ -1,3 +1,5 @@
-import JSONAPISerializer from '@ember-data/serializer/json-api';
+import JSONSerializer from '@ember-data/serializer/json';
 
-export { default } from 'ember-local-storage/serializers/serializer';
+export default class ApplicationSerializer extends JSONSerializer {
+
+}
