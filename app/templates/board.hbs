@@ -1,2 +1,16 @@
 {{page-title "Board"}}
+<div class="ui green segment">
+  <span class="ui label">{{@model.employee.email}}</span>
+  <button class="ui black button" {{action "logout"}}>
+    Logout
+  </button>
+</div>
+<h2>Orders</h2>
+<ul>
+  {{#each @model.orders as |order|}}
+  <li>
+    {{moment-format order.dateCreation "LLLL"}} <span class="ui circular label">{{order.orderdetails.length}}</span>
+  </li>
+{{/each}}
+</ul>
 {{outlet}}
