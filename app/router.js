@@ -25,4 +25,5 @@ Router.map(function () {
   });
   this.route('abstractroute');
   this.route('test-employe');
+  this.route('board');
 });
