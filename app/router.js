@@ -7,23 +7,7 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  // eslint-disable-next-line ember/no-capital-letters-in-routes
-  this.route('testNew');
-  this.route('testlist');
-  this.route('contacts', function () {
-    this.route('add');
-    this.route('update', { path: 'update/:category_id' });
-  });
-  this.route('categories', function () {
-    this.route('add');
-    this.route('update', { path: 'update/:contact_id' });
-    // eslint-disable-next-line ember/no-shadow-route-definition
-    this.route('contacts', { path: 'update/:category_id' }, function () {
-      this.route('add');
-      this.route('update', { path: 'update/:contact_id' });
-    });
-  });
-  this.route('abstractroute');
-  this.route('test-employe');
+  this.route('index', { path: '/' });
   this.route('board');
+  this.route('sections');
 });

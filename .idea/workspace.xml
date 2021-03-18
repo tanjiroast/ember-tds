@@ -4,8 +4,8 @@
     <list default="true" id="882ca47e-da67-4abb-a2df-9c67bf3b2711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/categories.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/contacts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/test-new.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/testlist.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1615209742749" duration="171000" />
       <workItem from="1615550544921" duration="662000" />
       <workItem from="1615556620442" duration="1850000" />
-      <workItem from="1616069346343" duration="2490000" />
+      <workItem from="1616069346343" duration="3125000" />
     </task>
     <servers />
   </component>
