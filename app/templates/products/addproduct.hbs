@@ -1,0 +1,18 @@
+{{page-title "AddProduct"}}
+<<div class="row">
+  <div class="col">
+    <Input @value={{@model.name}} placeholder="Entrez le nom du produit"/>
+  </div>
+  <div class="col">
+    <Input @value={{@model.price}} placeholder="Entrez le prix"/>
+  </div>
+  <div class="col">
+    <Input @value={{@model.promotion}} placeholder="Entrez la promotion"/>
+  </div>
+  <div class="col">
+    <Input @value={{@model.section}} placeholder="Entrez le numéro de section"/>
+  </div>
+  <button {{action "save" @model}} class="btn btn-primary"> Enregistrer </button>
+  <LinkTo @route="products" class="btn">Annuler</LinkTo>
+</div>
+{{outlet}}

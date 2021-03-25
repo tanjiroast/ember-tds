@@ -12,5 +12,8 @@
     {{moment-format order.dateCreation "LLLL"}} <span class="ui circular label">{{order.orderdetails.length}}</span>
   </li>
 {{/each}}
+  <LinkTo @route="products">
+    <button class="ui green button"> Produits </button>
+  </LinkTo>
 </ul>
 {{outlet}}
