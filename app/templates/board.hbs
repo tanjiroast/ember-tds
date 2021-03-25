@@ -1,5 +1,5 @@
 {{page-title "Board"}}
-<div class="ui green segment">
+<div class="ui blue segment">
   <span class="ui label">{{@model.employee.email}}</span>
   <LinkTo @route="logout" class="ui black button">
     Deconnexion
@@ -9,11 +9,11 @@
 <ul>
   {{#each @model.orders as |order|}}
   <li>
-    {{moment-format order.dateCreation "LLLL"}} <span class="ui circular label">{{order.orderdetails.length}}</span>
+    {{moment-format order.dateCreation "LLLL"}} <span class="ui square label">{{order.orderdetails.length}}</span>
   </li>
 {{/each}}
   <LinkTo @route="products">
-    <button class="ui green button"> Produits </button>
+    <button class="ui blue button"> Produits </button>
   </LinkTo>
 </ul>
 {{outlet}}

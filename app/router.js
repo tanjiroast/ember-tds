@@ -14,5 +14,7 @@ Router.map(function () {
   this.route('products', function() {
     this.route('addproduct');
   });
-  this.route('section');
+  this.route('section', function() {
+    this.route('add');
+  });
 });
