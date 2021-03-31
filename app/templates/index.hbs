@@ -1,7 +1,14 @@
 {{page-title "Index"}}
+<h1>Store</h1>
 <form {{action "connect" @model on="submit"}}>
+  <!--<div class="iu input error">
   <Input type="email" @value={{@model.email}} placeholder="Entrez votre email"/>
   <Input type="password" @value={{@model.password}} placeholder="Entrez votre mot de passe"/>
-  <button type="submit"> Connection </button>
+  </div>-->
+  <div class="ui input ">
+    <Input type="email" @value={{@model.email}} placeholder="Entrez votre email"/>
+    <Input type="password" @value={{@model.password}} placeholder="Entrez votre mot de passe"/>
+  </div>
+  <button class = "ui blue button" type="submit"> Connection </button>
 </form>
 {{outlet}}
