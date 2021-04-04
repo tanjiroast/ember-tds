@@ -19,5 +19,4 @@ export default class SectionsAddProductRoute extends Abstractroute {
     this.userAuth.logout();
     this.transitionTo('index');
   }
-
 }

@@ -6,13 +6,21 @@
   </button>
 </div>
 <h2>Sections</h2>
-<ul>
+<table>
+  <tbody>
   {{#each @model.sections as |section|}}
-    <li>
-      {{section.name}}
-    </li>
+    <tr>
+      <td class="ui collapsing">
+        <LinkTo class="ui mini icon red button" @route="section.delete" @model={{section.id}}>
+          <i class="ui eraser icon"></i>
+        </LinkTo>
+
+      </td>
+      <td>{{section.name}}</td>
+    </tr>
   {{/each}}
-</ul>
+  </tbody>
+</table>
 <LinkTo @route="section.add">
   <button class="ui green button" > Ajouter une section </button>
 </LinkTo>

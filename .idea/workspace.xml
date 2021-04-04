@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="882ca47e-da67-4abb-a2df-9c67bf3b2711" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/products/addproduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/products/addproduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/orderdetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializers/orderdetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/board.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/board.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/section.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +82,8 @@
       <workItem from="1616069346343" duration="8759000" />
       <workItem from="1616155769235" duration="149000" />
       <workItem from="1616674270755" duration="7681000" />
-      <workItem from="1617181242381" duration="6709000" />
+      <workItem from="1617181242381" duration="8397000" />
+      <workItem from="1617556790078" duration="3753000" />
     </task>
     <servers />
   </component>

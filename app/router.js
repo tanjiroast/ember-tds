@@ -10,11 +10,12 @@ Router.map(function () {
   this.route('index', { path: '/' });
   this.route('board');
   this.route('logout');
-  this.route('sections');
   this.route('products', function() {
     this.route('addproduct');
+    this.route('delete');
   });
   this.route('section', function() {
     this.route('add');
+    this.route('delete', { path: 'delete/:section_id' });
   });
 });
