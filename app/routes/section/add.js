@@ -10,9 +10,11 @@ export default class SectionsAddRoute extends Abstractroute {
   @action add(section) {
     section.save();
   }
-  @action save(data) {
-    let section = this.store.createRecord('section', data);
-    section.save().then(() => this.transitionTo('board'));
+  @action save(model) {
+    if (model.name) {
+      let section = this.store.createRecord('section', model);
+      section.save().then(() => this.transitionTo('sections'));
+    }
   }
   @action logout() {
     this.userAuth.logout();

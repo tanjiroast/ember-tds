@@ -1,19 +1,20 @@
 {{page-title "Products"}}
+<link rel="stylesheet" href="centrer.css">
 <div class="ui blue segment">
   <span class="ui label">{{@model.employee.email}}</span>
   <button class="ui black button" {{action "logout"}}>
     Logout
   </button>
 </div>
-<h2>Produits</h2>
-<LinkTo @route="products.addproduct">
-  <button class="ui blue button" > Ajouter un produit </button>
-</LinkTo>
-<LinkTo @route="board">
-  <button class="ui brown button"> Retour </button>
-</LinkTo>
+  <h2>Produits</h2>
+  <LinkTo @route="products.addproduct">
+    <button class="ui blue button"> Ajouter un produit </button>
+  </LinkTo>
+  <LinkTo @route="board">
+    <button class="ui brown button"> Retour </button>
+  </LinkTo>
 {{outlet}}
-<table class="ui teal table">
+<table class="ui teal table" align="center">
   <thead>
   <tr>
     <th> Nom </th>

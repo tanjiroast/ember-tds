@@ -2,8 +2,7 @@
 <div class="ui segment">
   <form class="ui form">
     <h4 class="ui dividing header">Supprimer une section : {{@model.name}}</h4>
-    <LinkTo class="ui button" @route="board">Annuler</LinkTo>
-    <LinkTo class="ui red button" @route="products.addProduct">Valider supression</LinkTo>
+    <button class="ui button positive" {{action "delete" @model}}>Valider</button>
 
   </form>
 </div>
