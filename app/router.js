@@ -17,5 +17,6 @@ Router.map(function () {
   this.route('section', function() {
     this.route('add');
     this.route('delete', { path: 'delete/:section_id' });
+    this.route('modif');
   });
 });

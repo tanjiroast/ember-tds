@@ -1,28 +1,31 @@
-# tds
+# Introduction
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ce projet emberJs peut permettre à des employés d'un magasin de le gérer.
 
-## Prerequisites
+## Outils
 
-You will need the following things properly installed on your computer.
+Pour faire le store, j'ai eu besoin d'utiliser plusieurs outils.
+Voici une liste de ceux-ci:
+* EmberJs (évidemment)
+* Le logiciel webStorm ainsi que PHPStorm pour l'api
+* XAMPP pour le serveur SQL (en activant Apache et MySQL)
+* Une base de données donnée par le professeur à importer dans phpMyAdmin
+* Composer pour avoir accès à des ressources plus qu'utiles
+* Bootstrap pour le style, mais aussi Semantic UI pour styliser mon interface
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## EmberJs
 
-## Installation
+EmberJs est un framework JavaScript comme l'indique son nom. Il est gratuit et est très utile pour créer des applications
+web. Il se traduit sous la forme  MODELE-VUE-CONTROLLER.
 
-* `git clone <repository-url>` this repository
-* `cd tds`
-* `npm install`
 
-## Running / Development
 
+## Utiliser EmberJs
+
+Pour commencer, pour démarrer notre serveur, il faut faire la commande :
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+Rien ne s'affichera pour commencer (sauf la page de bienvenue).
+  
 
 ### Code Generators
 

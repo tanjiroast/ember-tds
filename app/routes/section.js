@@ -22,9 +22,4 @@ export default class SectionsRoute extends Abstractroute {
     this.transitionTo('index');
   }
 
-  @action delete(model) {
-    model.destroyRecord().then(() => {
-      this.transitionTo('sections');
-    });
-  }
 }
