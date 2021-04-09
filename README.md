@@ -22,7 +22,34 @@ Je ne l'ai pas mise sur mon dépot git. Mais voici de l'aide pour la créer : ht
 EmberJs est un framework JavaScript comme l'indique son nom. Il est gratuit et est très utile pour créer des applications
 web. Il se traduit sous la forme  MODELE-VUE-CONTROLLER.
 
+### Les routes
 
+Les routes permettent de rediriger l'utilisateur de l'application vers d'autres pages. Par exemple, la route AbstractRoute nous rediriger vers l'index (connexion)
+
+Les différentes routes sont :
+
+*AbstractRoute 
+*board
+*index
+*logout
+*order
+*products
+*section
+
+Les pages sont donc accessibles par ces routes.
+
+**La page de connexion est gérée par index.js
+
+### Les models
+
+Grâce aux models, je peux choisir ce que je veux afficher dans mes pages. Voici la liste des models qui contiennent chacun différents attributs :
+* Employee
+* Order 
+* OrderDetail
+* Product
+* Section
+* Timeslot 
+* User
 
 ## Utiliser EmberJs
 
