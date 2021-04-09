@@ -28,17 +28,17 @@ Les routes permettent de rediriger l'utilisateur de l'application vers d'autres 
 
 Les différentes routes sont :
 
-*AbstractRoute 
-*board
-*index
-*logout
-*order
-*products
-*section
+* AbstractRoute 
+* board
+* index
+* logout
+* order
+* products
+* section
 
 Les pages sont donc accessibles par ces routes.
 
-**La page de connexion est gérée par index.js
+** La page de connexion est gérée par index.js
 
 ### Les models
 
