@@ -1,4 +1,4 @@
-# Introduction
+# Introduction : Store
 
 Ce projet emberJs peut permettre à des employés d'un magasin de le gérer.
 
@@ -12,6 +12,10 @@ Voici une liste de ceux-ci:
 * Une base de données donnée par le professeur à importer dans phpMyAdmin
 * Composer pour avoir accès à des ressources plus qu'utiles
 * Bootstrap pour le style, mais aussi Semantic UI pour styliser mon interface
+
+## Store-api
+J'ai utilisé une API pour pouvoir utiliser les informations émises de la page web et qui renvoi ce résultat.
+Je ne l'ai pas mise sur mon dépot git. Mais voici de l'aide pour la créer : https://slamwiki2.kobject.net/frontoffice/emberjs/td6-api
 
 ## EmberJs
 

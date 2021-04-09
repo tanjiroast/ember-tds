@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="882ca47e-da67-4abb-a2df-9c67bf3b2711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/section/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/section/delete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/section/delete.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section/delete.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <workItem from="1617814901870" duration="2143000" />
       <workItem from="1617890374971" duration="283000" />
       <workItem from="1617949965109" duration="2107000" />
-      <workItem from="1617991932130" duration="517000" />
+      <workItem from="1617991932130" duration="763000" />
     </task>
     <servers />
   </component>
