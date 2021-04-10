@@ -14,11 +14,8 @@
     {{moment-format order.dateCreation "LLLL"}} <span class="ui square label">{{order.orderdetails.length}}</span>
   </li>
 {{/each}}
-  <LinkTo @route="products">
-    <button class="ui blue button"> Produits </button>
-  </LinkTo>
   <LinkTo @route="section">
-    <button class="ui blue button"> Sections </button>
+    <button class="ui blue button"> Gerer le store </button>
   </LinkTo>
 </ul>
 {{outlet}}
