@@ -1,7 +1,8 @@
 import Route from '@ember/routing/route';
 import { action } from '@ember/object';
+import Abstractroute from '../abstractroute';
 
-export default class SectionDeleteRoute extends Route {
+export default class SectionDeleteRoute extends Abstractroute {
   model(params) {
     return this.store.findRecord('section', params.section_id);
   }

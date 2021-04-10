@@ -1,7 +1,7 @@
-import Route from '@ember/routing/route';
+import Abstractroute from '../abstractroute';
 import { action } from '@ember/object';
 
-export default class SectionProductsEditRoute extends Route {
+export default class SectionProductsEditRoute extends Abstractroute {
   model(params) {
     return this.store.findRecord('product', params.product_id);
   }
