@@ -1,8 +1,11 @@
-<div class="ui green segment">
+{{page-title "order"}}
+<div class="ui blue segment">
   <span class="ui label">{{@model.employee.email}}</span>
-  <button class="ui black button" {{action "logout"}}>
-    Logout
-  </button>
+  <div align="right">
+    <LinkTo @route="logout" class="ui black button">
+      Deconnexion
+    </LinkTo>
+  </div>
 </div>
 <h2>Orders</h2>
 <ul>

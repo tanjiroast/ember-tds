@@ -18,5 +18,9 @@ Router.map(function () {
     this.route('add');
     this.route('delete', { path: 'delete/:section_id' });
     this.route('modif');
+    this.route('products', function() {
+      this.route('edit');
+    });
+    this.route('edit');
   });
 });

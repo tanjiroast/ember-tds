@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="882ca47e-da67-4abb-a2df-9c67bf3b2711" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/section/products/addproduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/abstractroute.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/abstractroute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/products/addproduct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/products/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/section/products/delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/section/modif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/board.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/board.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/order.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/order.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/product/delete.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section/products/delete.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/products.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/products/addproduct.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section/products/addproduct.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/products/delete.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/section.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/section/modif.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/test-employe.hbs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,6 +70,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\richClient\ember\tds\tds\app\components" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\richClient\ember\tds\tds\app\templates\section\products" />
+      <recent name="D:\richClient\ember\tds\tds\app\routes\section\products" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +104,8 @@
       <workItem from="1617814901870" duration="2143000" />
       <workItem from="1617890374971" duration="283000" />
       <workItem from="1617949965109" duration="2107000" />
-      <workItem from="1617991932130" duration="1403000" />
+      <workItem from="1617991932130" duration="2043000" />
+      <workItem from="1618058567053" duration="3644000" />
     </task>
     <servers />
   </component>
