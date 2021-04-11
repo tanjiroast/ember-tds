@@ -17,7 +17,7 @@
     <Input type="text"@value={{@model.product.promotion}} placeholder="Entrez la promotion"/>
     <Input type="text"@value={{@model.product.stock}} placeholder="Entrez le stock"/>
   </div>
-  <button {{action "save" @model.product}} class="ui green button"> Enregistrer </button>
+  <button class="ui button"{{action 'save' @model}}>Ajouter</button>
   <LinkTo @route="section">
     <button class="ui orange button">Annuler</button>
   </LinkTo>

@@ -11,8 +11,7 @@ export default class SectionsAddProductRoute extends Abstractroute {
   }
 
   @action save(data) {
-    console.log(data.section.name);
-    let section = this.store.createRecord('product', data);
-    section.save().then(() => this.transitionTo('section'));
+    let product = this.store.createRecord('product', data.product);
+    product.save().then(() => this.transitionTo('section.products',product.section.id));
   }
 }
